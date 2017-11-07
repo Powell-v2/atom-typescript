@@ -27,6 +27,12 @@
       "description": "Show unused values with severity 'info' instead of 'error'",
       "type": "boolean",
       "default": true
+    },
+    "locale": {
+      "title": "TypeScript locale",
+      "description": "Use this locale for TypeScript messages (e.g. 'de')",
+      "type": "string",
+      "default": "en"
     }
   },
   "consumedServices": {

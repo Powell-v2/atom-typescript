@@ -1,6 +1,7 @@
 declare module "atom" {
   interface ConfigValues {
     "atom-typescript.unusedAsInfo": boolean
+    "atom-typescript.locale": string
   }
 
   interface TextBuffer {
